@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\latif\\source\\repos\\cattery\\catteryConsole\\catteryConsole.csproj",
+      "projectUniqueName": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\catteryConsole.csproj",
       "projectName": "catteryConsole",
-      "projectPath": "C:\\Users\\latif\\source\\repos\\cattery\\catteryConsole\\catteryConsole.csproj",
+      "projectPath": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\catteryConsole.csproj",
       "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\latif\\source\\repos\\cattery\\catteryConsole\\obj\\",
+      "outputPath": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,8 +62,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\catteryLib.csproj": {
-              "projectPath": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\catteryLib.csproj"
+            "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\catteryLib.csproj": {
+              "projectPath": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\catteryLib.csproj"
             }
           }
         }
@@ -78,7 +78,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -102,7 +102,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

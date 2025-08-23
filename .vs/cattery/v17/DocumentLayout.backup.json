@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\latif\\source\\repos\\cattery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|c:\\users\\latif\\source\\repos\\cattery\\cattery\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|solutionrelative:cattery\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\source\\repos\\cattery\\catteryconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\source\\repos\\cattery\\cattery\\catterylib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\catterylib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|c:\\users\\latif\\source\\repos\\cattery\\cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|solutionrelative:cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|c:\\users\\latif\\source\\repos\\cattery\\cattery\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\cattery.csproj|solutionrelative:cattery\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\source\\repos\\cattery\\cattery\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Class1.cs",
-              "RelativeDocumentMoniker": "cattery\\Class1.cs",
-              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Class1.cs",
-              "RelativeToolTip": "cattery\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Cattery.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Cattery.cs",
+              "RelativeDocumentMoniker": "cattery\\Cattery.cs",
+              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Cattery.cs",
+              "RelativeToolTip": "cattery\\Cattery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T18:59:35.725Z",
+              "WhenOpened": "2025-08-02T19:16:48.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Adoption.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Adoption.cs",
+              "RelativeDocumentMoniker": "cattery\\Adoption.cs",
+              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Adoption.cs",
+              "RelativeToolTip": "cattery\\Adoption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:02:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Cat.cs",
+              "RelativeDocumentMoniker": "cattery\\Cat.cs",
+              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\Cat.cs",
+              "RelativeToolTip": "cattery\\Cat.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:01:43.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "catteryLib.csproj",
+              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\catteryLib.csproj",
+              "RelativeDocumentMoniker": "cattery\\catteryLib.csproj",
+              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\cattery\\catteryLib.csproj",
+              "RelativeToolTip": "cattery\\catteryLib.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T19:00:34.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\source\\repos\\cattery\\catteryConsole\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "catteryConsole\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\latif\\source\\repos\\cattery\\catteryConsole\\MainWindow.xaml.cs",
+              "RelativeToolTip": "catteryConsole\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:00:27.624Z",
               "EditorCaption": ""
             }
           ]

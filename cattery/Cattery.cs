@@ -8,7 +8,7 @@ namespace cattery
 {
     public class Cattery
     {
-        public Cattery(List<Cat> catList,List<Adoption> adoptionList)
+        public Cattery(List<Cat> catList,List<Adoption> adoptionList)//quando riprendi in mano il progetto ricorda che devi sostituire catlist e adoptionlist con managecat e manageadoption e mettere tutto in quelle due classi (che si occuperanno a loro volta della serializzazione delle due liste.
         {
             CatList = catList;
             AdoptionList = adoptionList;
