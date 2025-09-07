@@ -1,4 +1,5 @@
-﻿using System;
+﻿using catteryLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,43 +9,42 @@ namespace cattery
 {
     public class Cattery
     {
-        public Cattery(List<Cat> catList,List<Adoption> adoptionList)//quando riprendi in mano il progetto ricorda che devi sostituire catlist e adoptionlist con managecat e manageadoption e mettere tutto in quelle due classi (che si occuperanno a loro volta della serializzazione delle due liste.
+        public Cattery(ManageCat catManagement, ManageAdoption adoptionManagement)//ricorda che Quando configurerai ManageAdoption  devi dargli come  parametro ManageCat
         {
-            CatList = catList;
-            AdoptionList = adoptionList;
+            CatManagement = catManagement;
+            AdoptionManagement = adoptionManagement;
         }
-        public List<Cat> CatList { get; private set; }
-        public List<Adoption> AdoptionList { get; private set; }
+        public ManageCat CatManagement { get; private  set; }
+        public ManageAdoption AdoptionManagement { get; private set; }
         public void AdoptCat(Cat cat, Adopter adopter, DateOnly adoptionDate)
         {
-            //faccio un controllo giusto per sicurezza: mettiamo che volesse adottare un gatto che non c'é nel gattile:
-            if(!CatList.Contains(cat))
-            {
-                throw new ArgumentException("The cat is not available for adoption.", nameof(cat));
-            }
-            else
-            {
-                CatList.Remove(cat);
-                cat.LeftCattery = adoptionDate;
-                Adoption adoption = new Adoption(cat, adopter, adoptionDate);
-                AdoptionList.Add(adoption);
-            }
+            cat.LeftCattery = adoptionDate;
+            Adoption adoption = new Adoption(cat, adopter, adoptionDate);
+            AdoptionManagement.MakeAdoption(adoption);
         }
         public void AddCat(Cat cat)
         {
-            if (cat == null)
-            {
-                throw new ArgumentNullException(nameof(cat), "Cat cannot be null");
-            }
-            CatList.Add(cat);
+            CatManagement.AddCatt(cat);
+        }
+        public void RemoveCat(Cat cat)//can also die =c.
+        {
+            CatManagement.RemoveCatt(cat);
         }
         public void RefundCat(Cat cat, DateOnly refundDate)
         {
-            cat.Description = $"Adoption failed: started on:{cat.ArrivedToCattery} and ended on: {cat.LeftCattery}";
-            cat.LeftCattery = null;
-            cat.ArrivedToCattery = refundDate;
-            cat.RegenerateCui();
-            AddCat(cat);
+            //i need to  search for the cat  in  the adoptionList.
+            AdoptionManagement.RefoundAdoption(SearchByCat(cat), refundDate);
+        }
+        private Adoption SearchByCat(Cat cat)
+        {
+            for(int catPos = 0; catPos< AdoptionManagement.Adoptions.Count(); catPos++)
+            {
+                if (cat == AdoptionManagement.Adoptions[catPos].AdoptionCat)
+                {
+                    return AdoptionManagement.Adoptions[catPos];
+                }
+            }
+            throw new ArgumentException("Did non find this cat on our  database");
         }
     }
 }

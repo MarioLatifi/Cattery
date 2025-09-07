@@ -8,17 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Gattile App" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="265" FontWeight="Bold" FontSize="48" Height="69"/>
-        <Label Content="Gatti presenti all'interno&#xD;&#xA;del gattile:" Margin="25,108,623,0" VerticalAlignment="Top" FontWeight="Bold" Background="{x:Null}">
-            <Label.BorderBrush>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
-                    <GradientStop Color="Black" Offset="1"/>
-                </LinearGradientBrush>
-            </Label.BorderBrush>
-        </Label>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="25,108,623,284"/>
-        <Button Content="Admin Panel" HorizontalAlignment="Left" Margin="145,311,0,0" VerticalAlignment="Top" Height="43" Width="139"/>
-        <Button Content="Visualizza Gatti" HorizontalAlignment="Left" Margin="490,311,0,0" VerticalAlignment="Top" Height="43" Width="139"/>
+        <Border BorderBrush="Black" Margin="25,108,623,0" VerticalAlignment="Top" CornerRadius="5"  BorderThickness="2">
+            <Label Content="Gatti presenti all'interno&#xD;&#xA;del gattile:" FontWeight="Bold" Background="{x:Null}" >
+            </Label>
+        </Border>
+        
+        <Button x:Name="btn_AdminPanel" Content="Admin Panel" HorizontalAlignment="Left" Margin="145,311,0,0" VerticalAlignment="Top" Height="43" Width="139" Click="btn_AdminPanel_Click"/>
+        <Button x:Name="btn_ViewCats" Content="Visualizza Gatti" HorizontalAlignment="Left" Margin="490,311,0,0" VerticalAlignment="Top" Height="43" Width="139"/>
 
     </Grid>
 </Window>

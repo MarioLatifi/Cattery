@@ -1,0 +1,12 @@
+C:\Users\latif\Desktop\Cattery\cattery\bin\Debug\net8.0-windows\catteryLib.deps.json
+C:\Users\latif\Desktop\Cattery\cattery\bin\Debug\net8.0-windows\catteryLib.dll
+C:\Users\latif\Desktop\Cattery\cattery\bin\Debug\net8.0-windows\catteryLib.pdb
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.AssemblyInfoInputs.cache
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.AssemblyInfo.cs
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.csproj.CoreCompileInputs.cache
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.sourcelink.json
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.dll
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\refint\catteryLib.dll
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\catteryLib.pdb
+C:\Users\latif\Desktop\Cattery\cattery\obj\Debug\net8.0-windows\ref\catteryLib.dll
