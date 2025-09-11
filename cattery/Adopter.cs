@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace cattery
 {
     public class Adopter
     {
+        public Adopter() { }
         public Adopter(string name, string surname, string address, string cel) 
         {
             if (string.IsNullOrWhiteSpace(name))
@@ -31,9 +33,13 @@ namespace cattery
             Address = address;
             Cel = cel;
         }
+        [JsonInclude]//sennó con i private set non va il json deserializer
         public string Name { get; private set; }
+        [JsonInclude]
         public string Surname { get; private set; }
+        [JsonInclude]
         public string Address { get; private set; }
+        [JsonInclude]
         public string Cel { get; private set; }
     }
 }

@@ -3,12 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace cattery
 {
     public class Cattery
     {
+        public Cattery() { }    
         public Cattery(ManageCat catManagement, ManageAdoption adoptionManagement)//ricorda che Quando configurerai ManageAdoption  devi dargli come  parametro ManageCat
         {
             CatManagement = catManagement;
@@ -33,7 +35,7 @@ namespace cattery
         public void RefundCat(Cat cat, DateOnly refundDate)
         {
             //i need to  search for the cat  in  the adoptionList.
-            AdoptionManagement.RefoundAdoption(SearchByCat(cat), refundDate);
+            AdoptionManagement.RefundAdoption(SearchByCat(cat), refundDate);
         }
         private Adoption SearchByCat(Cat cat)
         {

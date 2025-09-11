@@ -13,8 +13,8 @@
             </Label>
         </Border>
         
-        <Button x:Name="btn_AdminPanel" Content="Admin Panel" HorizontalAlignment="Left" Margin="145,311,0,0" VerticalAlignment="Top" Height="43" Width="139" Click="btn_AdminPanel_Click"/>
-        <Button x:Name="btn_ViewCats" Content="Visualizza Gatti" HorizontalAlignment="Left" Margin="490,311,0,0" VerticalAlignment="Top" Height="43" Width="139"/>
+        <Button x:Name="btn_AdminPanel" Content="Admin Panel" HorizontalAlignment="Left" Margin="145,311,0,0" VerticalAlignment="Top" Height="43" Width="139" />
+        <Button x:Name="btn_ViewCats" Content="Visualizza Gatti" HorizontalAlignment="Left" Margin="490,311,0,0" VerticalAlignment="Top" Height="43" Width="139" Click="btn_ViewCats_Click"/>
 
     </Grid>
 </Window>

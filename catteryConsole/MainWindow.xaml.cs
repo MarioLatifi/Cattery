@@ -2,6 +2,8 @@
 using catteryLib;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.Json;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -21,16 +23,45 @@ namespace catteryConsole
     {
         public MainWindow()
         {
+            /*
             InitializeComponent();
             CatManagementWPF = new ManageCat();
-            ManageAdoptionWPF= new ManageAdoption(CatManagementWPF);
-            CatteryWPF=  new Cattery(CatManagementWPF,ManageAdoptionWPF);
+            AdoptionManagementWPF= new ManageAdoption(CatManagementWPF);
+            CatManagementWPF.Cats.Add(new Cat("jo", "pastor", Sex.Male, "as", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null));
+            CatManagementWPF.Cats.Add(new Cat("benjamin", "pastor", Sex.Male, "fdsd", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null));
+            CatteryWPF =  new Cattery(CatManagementWPF,AdoptionManagementWPF);
+            
+            SerializeCatAndAdoptionManagement();
+            */
+            //usato per generare  il file da deserializzare
+            InitializeComponent();
+            DeserializeCatAndAdoptionManagement();
+            CatteryWPF = new Cattery(CatManagementWPF, AdoptionManagementWPF);
+        }
+        private void DeserializeCatAndAdoptionManagement()
+        {
+            string catsJson = File.ReadAllText("cats.json");
+            
+
+            CatManagementWPF = JsonSerializer.Deserialize<ManageCat>(catsJson);
+            
+
+            string adoptionsJson = File.ReadAllText("adoptions.json");
+            AdoptionManagementWPF = JsonSerializer.Deserialize<ManageAdoption>(adoptionsJson);
+        }
+
+        private void SerializeCatAndAdoptionManagement() 
+        {
+            string cats = JsonSerializer.Serialize(CatManagementWPF);
+            File.WriteAllText("cats.json", cats);//importato system IO
+            string adoptions = JsonSerializer.Serialize(AdoptionManagementWPF);
+            File.WriteAllText("adoptions.json",adoptions);
         }
         //devo mettere finti dati per farlo andare  ed infine il json serializer
         public ManageCat CatManagementWPF { get; set; }
-        public ManageAdoption ManageAdoptionWPF { get; set; }
+        public ManageAdoption AdoptionManagementWPF { get; set; }
         public Cattery CatteryWPF { get; set; }
-        private void btn_AdminPanel_Click(object sender, RoutedEventArgs e)
+        private void btn_ViewCats_Click(object sender, RoutedEventArgs e)
         {
             //do per scontato che il sender  sia il bottone, pk non lo  chiamo da altre parti.
             ViewCatsWPF newWindow = new ViewCatsWPF(CatteryWPF,this);
