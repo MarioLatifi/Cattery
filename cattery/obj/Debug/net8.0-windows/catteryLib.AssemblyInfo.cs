@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("catteryLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de44d3b82fba807675e2e71f56ecd18df573ba07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2d5d6172c69016265da74e85c458ef00effdf13")]
 [assembly: System.Reflection.AssemblyProductAttribute("catteryLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("catteryLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

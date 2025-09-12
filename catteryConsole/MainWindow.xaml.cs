@@ -27,16 +27,16 @@ namespace catteryConsole
             InitializeComponent();
             CatManagementWPF = new ManageCat();
             AdoptionManagementWPF= new ManageAdoption(CatManagementWPF);
-            CatManagementWPF.Cats.Add(new Cat("jo", "pastor", Sex.Male, "as", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null));
-            CatManagementWPF.Cats.Add(new Cat("benjamin", "pastor", Sex.Male, "fdsd", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null));
+            CatManagementWPF.Cats.Add(new Cat("jo", "pastor", Sex.Male, "as", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null, "cat1.jpg"));
+            CatManagementWPF.Cats.Add(new Cat("benjamin", "pastor", Sex.Male, "fdsd", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null,"cat2.jpg"));
             CatteryWPF =  new Cattery(CatManagementWPF,AdoptionManagementWPF);
             
             SerializeCatAndAdoptionManagement();
             */
             //usato per generare  il file da deserializzare
-            InitializeComponent();
-            DeserializeCatAndAdoptionManagement();
-            CatteryWPF = new Cattery(CatManagementWPF, AdoptionManagementWPF);
+           InitializeComponent();
+           DeserializeCatAndAdoptionManagement();
+           CatteryWPF = new Cattery(CatManagementWPF, AdoptionManagementWPF);
         }
         private void DeserializeCatAndAdoptionManagement()
         {

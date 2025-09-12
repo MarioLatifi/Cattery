@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace cattery
 {
@@ -15,7 +16,7 @@ namespace cattery
     public class Cat
     {
         public Cat() { }
-        public Cat(string name,string race,Sex sex,string description, DateOnly? birth,DateOnly arrived,DateOnly? left)
+        public Cat(string name,string race,Sex sex,string description, DateOnly? birth,DateOnly arrived,DateOnly? left,string catImage)
         {
             if(string.IsNullOrWhiteSpace(name))
             {
@@ -37,6 +38,7 @@ namespace cattery
             ArrivedToCattery = arrived;
             Birth = birth;
             LeftCattery = left;
+            CatImage = catImage;
             //genero un numero casuale di 5 cifre
             RegenerateCui();
 
@@ -75,6 +77,8 @@ namespace cattery
         public string Description { get; internal set; }
         [JsonInclude]
         public string Cui { get; internal set; }
+        [JsonInclude]
+        public string CatImage { get; internal set; }
 
     }
 }
