@@ -23,6 +23,5 @@ namespace cattery
         public Adopter AdoptionAdopter { get; private set; }
         [JsonInclude]
         public DateOnly AdoptionDate { get; private set; }
-
     }
 }

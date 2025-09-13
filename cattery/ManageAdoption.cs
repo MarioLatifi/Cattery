@@ -25,7 +25,7 @@ namespace catteryLib
             //devo anche  rimuovere il gatto da CatManagement
             CatManagement.RemoveCatt(adoption.AdoptionCat);
         }
-        internal void RefundAdoption(Adoption adoption,DateOnly refundDate)//this fun simply  modifies  the adoption info without removing it from thhe list.
+        internal void RefundAdoption(Adoption adoption,DateOnly refundDate)//this fun simply  modifies  the adoption info without removing it from the list.
         {
             adoption.AdoptionCat.Description += $"Adoption Failed: Started on: {adoption.AdoptionCat.LeftCattery} and ended on: {refundDate}";
             adoption.AdoptionCat.LeftCattery = null;

@@ -61,7 +61,7 @@ namespace catteryConsole {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/catteryConsole;V1.0.0.0;component/viewcatswpf.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/catteryConsole;component/viewcatswpf.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewCatsWPF.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

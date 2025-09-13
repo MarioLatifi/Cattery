@@ -29,6 +29,8 @@ namespace catteryConsole
             AdoptionManagementWPF= new ManageAdoption(CatManagementWPF);
             CatManagementWPF.Cats.Add(new Cat("jo", "pastor", Sex.Male, "as", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null, "cat1.jpg"));
             CatManagementWPF.Cats.Add(new Cat("benjamin", "pastor", Sex.Male, "fdsd", new DateOnly(1999, 12, 13), new DateOnly(1999, 12, 14), null,"cat2.jpg"));
+            CatManagementWPF.Cats.Add(new Cat("rocco", "bau", Sex.Male, "asdjhkashjg", new DateOnly(1929, 9, 13), new DateOnly(1999, 12, 14), null, null));
+            CatManagementWPF.Cats.Add(new Cat("Mohammed", "labrador", Sex.Male, "ciao can", new DateOnly(1939, 11, 13), new DateOnly(1999, 12, 14), null, null));
             CatteryWPF =  new Cattery(CatManagementWPF,AdoptionManagementWPF);
             
             SerializeCatAndAdoptionManagement();

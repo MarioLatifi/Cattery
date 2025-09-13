@@ -16,7 +16,7 @@ namespace cattery
     public class Cat
     {
         public Cat() { }
-        public Cat(string name,string race,Sex sex,string description, DateOnly? birth,DateOnly arrived,DateOnly? left,string catImage)
+        public Cat(string name,string race,Sex sex,string description, DateOnly? birth,DateOnly arrived,DateOnly? left,string? catImage)
         {
             if(string.IsNullOrWhiteSpace(name))
             {
@@ -78,7 +78,7 @@ namespace cattery
         [JsonInclude]
         public string Cui { get; internal set; }
         [JsonInclude]
-        public string CatImage { get; internal set; }
+        public string? CatImage { get; internal set; }
 
     }
 }
