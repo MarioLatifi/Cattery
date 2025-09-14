@@ -34,7 +34,10 @@
 
         <!-- Button Adotta Ora -->
         <Button x:Name="btnAdopt" Content="Adotta Ora" Grid.Row="1" Grid.Column="1"
-                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Width="100" Click="btnAdoptNow_Click"/>
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,0" Width="100" Click="btnAdoptNow_Click" Height="30"/>
+
+        <Button x:Name="btnBack" Content="Torna Indietro" Grid.Row="1" Grid.Column="1"
+        HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,134,0" Width="100" Click="btnBack_Click" Height="30"/>
     </Grid>
 </Window>
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("catteryConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4acf9016eb40188ac3eca93e0d8d6b7c14fe6639")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66bcffffbc2b09d8a5d19125182b66b10ac85a84")]
 [assembly: System.Reflection.AssemblyProductAttribute("catteryConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("catteryConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

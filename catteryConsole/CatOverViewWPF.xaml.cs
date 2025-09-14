@@ -70,5 +70,11 @@ namespace catteryConsole
             this.Close(); // Chiudi la finestra dopo l'adozione (se vuoi)
             Main.SerializeCatAndAdoptionManagement();
         }
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Show(); // Mostra la finestra principale
+            this.Close(); // Chiudi la finestra attuale
+        }
+
     }
 }

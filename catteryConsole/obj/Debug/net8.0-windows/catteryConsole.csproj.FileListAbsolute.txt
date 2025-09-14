@@ -6,8 +6,10 @@ C:\Users\latif\Desktop\Cattery\catteryConsole\bin\Debug\net8.0-windows\catteryCo
 C:\Users\latif\Desktop\Cattery\catteryConsole\bin\Debug\net8.0-windows\catteryLib.dll
 C:\Users\latif\Desktop\Cattery\catteryConsole\bin\Debug\net8.0-windows\catteryLib.pdb
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\catteryConsole.csproj.AssemblyReference.cache
+C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\AddCatsWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\CatOverViewWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\ViewAdoptionsWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\AddCatsWPF.g.cs
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\AfterLoginWPF.g.cs
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\CatOverViewWPF.g.cs
@@ -17,9 +19,7 @@ C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\ViewCatsW
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\catteryConsole_MarkupCompile.cache
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\catteryConsole_MarkupCompile.lref
-C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\AddCatsWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\AfterLoginWPF.baml
-C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\ViewAdoptionsWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\ViewCatsWPF.baml
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\catteryConsole.g.resources
 C:\Users\latif\Desktop\Cattery\catteryConsole\obj\Debug\net8.0-windows\catteryConsole.GeneratedMSBuildEditorConfig.editorconfig

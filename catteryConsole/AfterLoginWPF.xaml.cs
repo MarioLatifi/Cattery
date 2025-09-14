@@ -47,10 +47,7 @@ namespace catteryConsole
         private void DeserializeCatAndAdoptionManagement()
         {
             string catsJson = File.ReadAllText("cats.json");
-
             CatManagementWPF = JsonSerializer.Deserialize<ManageCat>(catsJson);
-            
-
             string adoptionsJson = File.ReadAllText("adoptions.json");
             AdoptionManagementWPF = JsonSerializer.Deserialize<ManageAdoption>(adoptionsJson);
         }
@@ -77,6 +74,13 @@ namespace catteryConsole
         {
             ViewAdoptionsWPF newWindow = new ViewAdoptionsWPF(CatteryWPF, this);
             newWindow.Show();
+            this.Hide();
+        }
+
+        private void btn_AddCats_Click(object sender, RoutedEventArgs e)
+        {
+            AddCatsWPF addCatsWPF = new AddCatsWPF(this);
+            addCatsWPF.Show();
             this.Hide();
         }
     }

@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\latif\\Desktop\\Cattery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\viewcatswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\viewcatswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\catteryconsole.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\catteryconsole.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\viewadoptionswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\viewadoptionswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\afterloginwpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\afterloginwpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\addcatswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\addcatswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\viewcatswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\viewcatswpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\manageadoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\manageadoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\viewadoptionswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\viewadoptionswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\addcatswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\addcatswpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\catoverviewwpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\catoverviewwpf.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\afterloginwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\afterloginwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\catoverviewwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\catoverviewwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\managecat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\managecat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|c:\\users\\latif\\desktop\\cattery\\catteryconsole\\afterloginwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{575D1714-EF9D-4EA0-AA0C-8A8D4BAD39A3}|catteryConsole\\catteryConsole.csproj|solutionrelative:catteryconsole\\afterloginwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|c:\\users\\latif\\desktop\\cattery\\cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F8A27-20FE-44C2-87DD-ABDE5AC97B27}|cattery\\catteryLib.csproj|solutionrelative:cattery\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,134 +46,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cat.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cat.cs",
-              "RelativeDocumentMoniker": "cattery\\Cat.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cat.cs",
-              "RelativeToolTip": "cattery\\Cat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T15:01:54.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Adoption.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Adoption.cs",
-              "RelativeDocumentMoniker": "cattery\\Adoption.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Adoption.cs",
-              "RelativeToolTip": "cattery\\Adoption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T15:01:45.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewCatsWPF.xaml",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewCatsWPF.xaml",
-              "RelativeDocumentMoniker": "catteryConsole\\ViewCatsWPF.xaml",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewCatsWPF.xaml",
-              "RelativeToolTip": "catteryConsole\\ViewCatsWPF.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-14T14:45:40.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManageAdoption.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\ManageAdoption.cs",
-              "RelativeDocumentMoniker": "cattery\\ManageAdoption.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\ManageAdoption.cs",
-              "RelativeToolTip": "cattery\\ManageAdoption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:48:46.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cattery.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cattery.cs",
-              "RelativeDocumentMoniker": "cattery\\Cattery.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cattery.cs",
-              "RelativeToolTip": "cattery\\Cattery.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:18:38.793Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AfterLoginWPF.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AfterLoginWPF.xaml.cs",
-              "RelativeDocumentMoniker": "catteryConsole\\AfterLoginWPF.xaml.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AfterLoginWPF.xaml.cs",
-              "RelativeToolTip": "catteryConsole\\AfterLoginWPF.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:18:25.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewAdoptionsWPF.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewAdoptionsWPF.xaml.cs",
-              "RelativeDocumentMoniker": "catteryConsole\\ViewAdoptionsWPF.xaml.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewAdoptionsWPF.xaml.cs",
-              "RelativeToolTip": "catteryConsole\\ViewAdoptionsWPF.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwDwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:15:42.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewCatsWPF.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewCatsWPF.xaml.cs",
-              "RelativeDocumentMoniker": "catteryConsole\\ViewCatsWPF.xaml.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewCatsWPF.xaml.cs",
-              "RelativeToolTip": "catteryConsole\\ViewCatsWPF.xaml.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:08:47.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "CatOverViewWPF.xaml.cs",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\CatOverViewWPF.xaml.cs",
               "RelativeDocumentMoniker": "catteryConsole\\CatOverViewWPF.xaml.cs",
               "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\CatOverViewWPF.xaml.cs",
               "RelativeToolTip": "catteryConsole\\CatOverViewWPF.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowBYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:04:00.215Z"
+              "WhenOpened": "2025-09-14T18:19:04.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "CatOverViewWPF.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\CatOverViewWPF.xaml",
               "RelativeDocumentMoniker": "catteryConsole\\CatOverViewWPF.xaml",
               "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\CatOverViewWPF.xaml",
               "RelativeToolTip": "catteryConsole\\CatOverViewWPF.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-14T13:03:46.161Z"
+              "WhenOpened": "2025-09-14T18:19:02.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ManageCat.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\ManageCat.cs",
-              "RelativeDocumentMoniker": "cattery\\ManageCat.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\ManageCat.cs",
-              "RelativeToolTip": "cattery\\ManageCat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AfterLoginWPF.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AfterLoginWPF.xaml.cs",
+              "RelativeDocumentMoniker": "catteryConsole\\AfterLoginWPF.xaml.cs",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AfterLoginWPF.xaml.cs",
+              "RelativeToolTip": "catteryConsole\\AfterLoginWPF.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:19:02.115Z"
+              "WhenOpened": "2025-09-14T17:50:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCatsWPF.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AddCatsWPF.xaml.cs",
+              "RelativeDocumentMoniker": "catteryConsole\\AddCatsWPF.xaml.cs",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AddCatsWPF.xaml.cs",
+              "RelativeToolTip": "catteryConsole\\AddCatsWPF.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwD8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:48:55.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCatsWPF.xaml",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AddCatsWPF.xaml",
+              "RelativeDocumentMoniker": "catteryConsole\\AddCatsWPF.xaml",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AddCatsWPF.xaml",
+              "RelativeToolTip": "catteryConsole\\AddCatsWPF.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-14T17:48:54.92Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -217,7 +118,7 @@
         "Y": 5,
         "Width": 1930,
         "Height": 1032,
-        "WindowState": 2
+        "WindowState": 0
       },
       "DocumentGroups": [
         {
@@ -226,7 +127,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "AfterLoginWPF.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\AfterLoginWPF.xaml",
               "RelativeDocumentMoniker": "catteryConsole\\AfterLoginWPF.xaml",
@@ -244,13 +145,13 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "030e291e-9af6-4ccb-9b20-b262e482e109",
+        "Id": "7f5c0de1-1fb0-4e3a-b63d-b405d51efeb7",
         "Display": 2,
         "X": 1,
         "Y": 1,
         "Width": 1918,
         "Height": 1030,
-        "WindowState": 2
+        "WindowState": 0
       },
       "DocumentGroups": [
         {
@@ -259,26 +160,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "catteryConsole",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\catteryConsole.csproj",
-              "RelativeDocumentMoniker": "catteryConsole\\catteryConsole.csproj",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\catteryConsole.csproj",
-              "RelativeToolTip": "catteryConsole\\catteryConsole.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-14T15:10:51.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewAdoptionsWPF.xaml",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewAdoptionsWPF.xaml",
-              "RelativeDocumentMoniker": "catteryConsole\\ViewAdoptionsWPF.xaml",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\catteryConsole\\ViewAdoptionsWPF.xaml",
-              "RelativeToolTip": "catteryConsole\\ViewAdoptionsWPF.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-14T14:18:01.582Z",
+              "DocumentIndex": 6,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cat.cs",
+              "RelativeDocumentMoniker": "cattery\\Cat.cs",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\Cattery\\cattery\\Cat.cs",
+              "RelativeToolTip": "cattery\\Cat.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T15:01:54.932Z",
               "EditorCaption": ""
             }
           ]
