@@ -1,20 +1,24 @@
 ﻿<Window x:Class="catteryConsole.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:catteryConsole"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Gattile App" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="265" FontWeight="Bold" FontSize="48" Height="69"/>
-        <Border BorderBrush="Black" Margin="25,108,623,0" VerticalAlignment="Top" CornerRadius="5"  BorderThickness="2">
-            <Label Content="Gatti presenti all'interno&#xD;&#xA;del gattile:" FontWeight="Bold" Background="{x:Null}" >
-            </Label>
-        </Border>
-        
-        <Button x:Name="btn_AdminPanel" Content="Admin Panel" HorizontalAlignment="Left" Margin="145,311,0,0" VerticalAlignment="Top" Height="43" Width="139" />
-        <Button x:Name="btn_ViewCats" Content="Visualizza Gatti" HorizontalAlignment="Left" Margin="490,311,0,0" VerticalAlignment="Top" Height="43" Width="139" Click="btn_ViewCats_Click"/>
+        Title="Login" Height="475" Width="722" WindowStartupLocation="CenterScreen" Background="#F5F5F5">
+    <Border x:Name="BackGroundLogin" CornerRadius="10" Background="White" Padding="20" Margin="10" BorderBrush="#DDD" BorderThickness="1">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock Text="Login Adottante" FontSize="22" FontWeight="Bold" Foreground="#333" Margin="0,0,0,20" TextAlignment="Center"/>
+            
+            <TextBlock Text="Nome" Margin="0,5,0,0" Foreground="#666"/>
+            <TextBox x:Name="txtName" Margin="0,2,0,10" Height="28" FontSize="14"/>
 
-    </Grid>
+            <TextBlock Text="Cognome" Margin="0,5,0,0" Foreground="#666"/>
+            <TextBox x:Name="txtSurname" Margin="0,2,0,10" Height="28" FontSize="14"/>
+
+            <TextBlock Text="Indirizzo" Margin="0,5,0,0" Foreground="#666"/>
+            <TextBox x:Name="txtAddress" Margin="0,2,0,10" Height="28" FontSize="14"/>
+
+            <TextBlock Text="Cellulare" Margin="0,5,0,0" Foreground="#666"/>
+            <TextBox x:Name="txtCel" Margin="0,2,0,20" Height="28" FontSize="14"/>
+
+            <Button x:Name="btnLogin" Content="Login" Height="35" FontSize="16" Background="#4CAF50" Foreground="White" BorderThickness="0" Cursor="Hand"/>
+        </StackPanel>
+    </Border>
 </Window>

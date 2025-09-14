@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\latif\Desktop\Cattery\catteryConsole\App.xaml
-3-1315131010
+6-851389142
 
-8-38003109
+11157079169
 199130189399
-AdminPanelWPF.xaml;MainWindow.xaml;ViewCatsWPF.xaml;
+AddCatsWPF.xaml;AfterLoginWPF.xaml;CatOverViewWPF.xaml;MainWindow.xaml;ViewAdoptionsWPF.xaml;ViewCatsWPF.xaml;
 
 True
 

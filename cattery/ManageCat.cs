@@ -20,7 +20,7 @@ namespace catteryLib
         {
             Cats.Add(cat);
         }
-        public void RemoveCatt(Cat cat)
+        public void RemoveCat(Cat cat)
         { 
             Cats.Remove(cat);
         }

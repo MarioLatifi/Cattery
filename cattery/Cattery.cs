@@ -23,6 +23,7 @@ namespace cattery
             cat.LeftCattery = adoptionDate;
             Adoption adoption = new Adoption(cat, adopter, adoptionDate);
             AdoptionManagement.MakeAdoption(adoption);
+            CatManagement.RemoveCat(cat);
         }
         public void AddCat(Cat cat)
         {
@@ -30,12 +31,13 @@ namespace cattery
         }
         public void RemoveCat(Cat cat)//can also die =c.
         {
-            CatManagement.RemoveCatt(cat);
+            CatManagement.RemoveCat(cat);
         }
         public void RefundCat(Cat cat, DateOnly refundDate)
         {
             //i need to  search for the cat  in  the adoptionList.
             AdoptionManagement.RefundAdoption(SearchByCat(cat), refundDate);
+            CatManagement.AddCatt(cat);
         }
         private Adoption SearchByCat(Cat cat)
         {

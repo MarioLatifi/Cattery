@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:catteryConsole"
         mc:Ignorable="d"
         Title="ViewCatsWPF" Height="450" Width="800">
-    <Canvas x:Name="ViewCatsCanvas" Height="1080" Width="1920">
-        
-    </Canvas>
+    
+    <Canvas x:Name="ViewCatsCanvas" Margin="0,0,0,-6"/>
+    
+    
 </Window>
